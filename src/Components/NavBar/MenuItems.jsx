@@ -1,12 +1,12 @@
 export const MenuItems = [
   {
-    title: 'Home',
+    title: 'Accueil',
     url: '/',
     cName: 'nav-links',
     icon: 'fa-solid fa-house-user',
   },
   {
-    title: 'About',
+    title: 'A prppos',
     url: '/about',
     cName: 'nav-links',
     icon: 'fa-solid fa-circle-info',
@@ -24,7 +24,7 @@ export const MenuItems = [
     icon: 'fa-solid fa-address-book',
   },
   {
-    title: 'Sign Up',
+    title: 'Connexion',
     url: '/',
     cName: 'nav-links-mobile',
   },
