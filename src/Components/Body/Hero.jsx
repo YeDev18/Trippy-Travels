@@ -4,7 +4,7 @@ import Img1 from '../../assets/12.jpg';
 const Hero = props => {
   return (
     <>
-      <div className="hero">
+      <div className={props.cName}>
         <img alt="HerImage" src={props.heroImg} />
         <div className="hero-text">
           <h1>{props.title}</h1>

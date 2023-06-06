@@ -1,10 +1,13 @@
 import React from 'react';
 import NavBar from '../components/NavBar/NavBar';
+import Hero from '../Components/Body/Hero';
+import Img from '../assets/2.jpg';
 const Contact = () => {
   return (
     <>
       <NavBar />
-      <h1>This is Contact</h1>
+      <NavBar />
+      <Hero cName="hero-mid" heroImg={Img} title="Contact" btnClass="hide" />
     </>
   );
 };

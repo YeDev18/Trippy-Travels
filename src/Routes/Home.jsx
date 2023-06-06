@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from '../components/NavBar/NavBar';
 import Hero from '../Components/Body/Hero';
 import Img from '../assets/12.jpg';
+import Destination from '../Components/Body/Destination';
 
 const Home = () => {
   return (
@@ -14,8 +15,9 @@ const Home = () => {
         text="Chosse Your Favourite Destination"
         buttonText="Travel plan"
         url="/"
-        btnClass="show"
+        btnClass="hide"
       />
+      <Destination />
     </>
   );
 };
