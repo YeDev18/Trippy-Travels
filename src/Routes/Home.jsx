@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar/NavBar';
 import Hero from '../Components/Body/Hero';
 import Img from '../assets/12.jpg';
 import Destination from '../Components/Body/Destination';
+import Voyage from '../Components/Body/Voyage';
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
         btnClass="hide"
       />
       <Destination />
+      <Voyage />
     </>
   );
 };
