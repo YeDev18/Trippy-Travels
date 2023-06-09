@@ -4,6 +4,7 @@ import Hero from '../Components/Body/Hero';
 import Img from '../assets/12.jpg';
 import Destination from '../Components/Body/Destination';
 import Voyage from '../Components/Body/Voyage';
+import Footer from '../Components/Body/Footer';
 
 const Home = () => {
   return (
@@ -12,14 +13,15 @@ const Home = () => {
       <Hero
         cName="hero"
         heroImg={Img}
-        title="Your Journey Your Story"
-        text="Chosse Your Favourite Destination"
+        title="Taa Journée Ton Histoire"
+        text="Choisir ta destination préferée"
         buttonText="Travel plan"
         url="/"
         btnClass="hide"
       />
       <Destination />
       <Voyage />
+      <Footer />
     </>
   );
 };

@@ -2,6 +2,8 @@ import React from 'react';
 import NavBar from '../components/NavBar/NavBar';
 import Hero from '../Components/Body/Hero';
 import Img from '../assets/night.jpg';
+import Footer from '../Components/Body/Footer';
+import AboutUs from '../Components/Body/AboutUs';
 
 const About = () => {
   return (
@@ -9,6 +11,8 @@ const About = () => {
       <>
         <NavBar />
         <Hero cName="hero-mid" heroImg={Img} title="A propos" btnClass="hide" />
+        <AboutUs />
+        <Footer />
       </>
     </>
   );
