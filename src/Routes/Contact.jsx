@@ -1,14 +1,13 @@
 import React from 'react';
-import NavBar from '../components/NavBar/NavBar';
 import Hero from '../Components/Body/Hero';
 import Img from '../assets/2.jpg';
 import Footer from '../Components/Body/Footer';
 import ContactForm from '../Components/Body/ContactForm';
+import Navbar from '../Components/NavBar/NavBar';
 const Contact = () => {
   return (
     <>
-      <NavBar />
-      <NavBar />
+      <Navbar />
       <Hero cName="hero-mid" heroImg={Img} title="Contact" btnClass="hide" />
       <ContactForm />
       <Footer />

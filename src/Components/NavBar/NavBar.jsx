@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import './NavBar.css';
 import { MenuItems } from './MenuItems';
@@ -28,7 +29,7 @@ const Navbar = () => {
             return (
               <li key={index}>
                 <Link to={item.url} className={item.cName}>
-                  <i class={item.icon}></i>
+                  <i className={item.icon}></i>
                   {item.title}
                 </Link>
               </li>
